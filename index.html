@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
+    </header>
+    <main>
+        <div class="rounds">
+            <div class="round-display">
+                <h3 class="round">Round <span id="round-count">1</span></h3>
+                <p id="round-text">Pick your choice</p>
+            </div>
+            <div id="reset">
+                <p>Player again</p>
+            </div>
+        </div>
+        <div class="selection">
+            <div class="player">
+                <p>Player</p>
+                <p id="player-score">0</p>
+                <div class="player-selection">
+                    <img id="rock" src="rock-image.png" alt="Rock">
+                    <img id="paper" src="paper-image.png" alt="Paper">
+                    <img id="scissors" src="scissors-image.png" alt="Scissors">
+                </div>
+            </div>
+            <div class="computer">
+                <p>Computer</p>
+                <p id="computer-score">0</p>
+                <div class="computer-selection">
+                    <img src="rock-image.png" alt="">
+                    <img src="paper-image.png" alt="">
+                    <img src="scissors-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
